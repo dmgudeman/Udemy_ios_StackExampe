@@ -24,58 +24,53 @@
                                     <constraint firstAttribute="height" constant="56" id="G0x-4Q-KeO"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mh0-Bh-w3f">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mh0-Bh-w3f">
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eDe-FT-16K">
-                                        <frame key="frameInset" width="335" height="427"/>
+                                        <frame key="frameInset" width="335" height="372"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="chucks" translatesAutoresizingMaskIntoConstraints="NO" id="G3f-2K-Yw2">
-                                                <frame key="frameInset" width="335" height="427"/>
+                                                <frame key="frameInset" width="335" height="372"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="TnO-1W-pUr">
-                                        <frame key="frameInset" minY="432" width="335" height="65"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="TnO-1W-pUr">
+                                        <frame key="frameInset" minY="382" width="335" height="65"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="SR6-Ed-m00">
-                                                <frame key="frameInset" width="47" height="65"/>
+                                                <frame key="frameInset" width="55" height="65"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="EXd-D9-9iS"/>
-                                                    <constraint firstAttribute="height" constant="65" id="v5z-EQ-moy"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="v5z-EQ-moy"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="Ei2-3e-8GQ">
-                                                <frame key="frameInset" minX="72" width="47" height="65"/>
+                                                <frame key="frameInset" minX="70" width="55" height="65"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="Nji-B2-XLE"/>
-                                                    <constraint firstAttribute="width" constant="65" id="nQb-DK-WQn"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="Nji-B2-XLE"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="Xkq-JJ-Fdh">
-                                                <frame key="frameInset" minX="144" width="47" height="65"/>
+                                                <frame key="frameInset" minX="140" width="55" height="65"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="DLQ-Qn-dpF"/>
-                                                    <constraint firstAttribute="height" constant="65" id="pn2-aC-kZN"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="pn2-aC-kZN"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes4" translatesAutoresizingMaskIntoConstraints="NO" id="tH4-rA-jvo">
-                                                <frame key="frameInset" minX="216" width="47" height="65"/>
+                                                <frame key="frameInset" minX="210" width="55" height="65"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="4Yd-T2-U3b"/>
-                                                    <constraint firstAttribute="height" constant="65" id="XAu-ea-GVI"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="XAu-ea-GVI"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes5" translatesAutoresizingMaskIntoConstraints="NO" id="Z1P-uY-fjw">
-                                                <frame key="frameInset" minX="288" width="47" height="65"/>
+                                                <frame key="frameInset" minX="280" width="55" height="65"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="UY5-dv-qXh"/>
-                                                    <constraint firstAttribute="width" constant="65" id="om3-5W-Aqe"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="UY5-dv-qXh"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HlA-pI-9hK">
-                                        <frame key="frameInset" minY="502" width="335" height="21"/>
+                                        <frame key="frameInset" minY="457" width="335" height="21"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Chuck Taylor Shoes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7d-a8-oWA">
                                                 <frame key="frameInset" width="335" height="21"/>
@@ -85,37 +80,37 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29F-92-9aa">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="29F-92-9aa">
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ref 777 / USA Special Edition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkF-i4-7DC">
-                                                <frame key="frameInset" width="232" height="21"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ref 777 / USA Special Edition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkF-i4-7DC">
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <color key="textColor" red="0.55658203129999995" green="0.55658203129999995" blue="0.55658203129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Price: $78.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fI4-E2-fgT">
-                                                <frame key="frameInset" minX="232" width="104" height="21"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: $78.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fI4-E2-fgT">
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <color key="textColor" red="0.18764859700220185" green="0.44501953125000004" blue="0.17900811896641941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7N-3b-hSL">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="g7N-3b-hSL">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncb-dw-txS">
-                                                <frame key="frameInset" width="302" height="34"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncb-dw-txS">
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.13333334029999999" alpha="1" colorSpace="deviceRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="xfr-X9-ePC"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                 <state key="normal" title="Like"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1um-mP-e0n">
-                                                <frame key="frameInset" minX="302" width="33" height="34"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1um-mP-e0n">
                                                 <color key="backgroundColor" red="0.187648597" green="0.44501953129999999" blue="0.17900811899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                 <state key="normal" title="Buy"/>
                                             </button>
                                         </subviews>
+                                        <variation key="widthClass=compact" axis="vertical"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
